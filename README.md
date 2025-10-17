@@ -29,24 +29,24 @@ El proyecto fue diseñado como parte de una **prueba técnica de desarrollo móv
 Inovisec/
 │
 ├── app/
-│   ├── java/com/example/inovisec/
-│   │   ├── MainActivity.kt        # Login y consumo de API
-│   │   ├── MapActivity.kt         # Vista del mapa
-│   │   └── ui/theme/              # Colores y tema general
+│   ├── java/
+│   │   └── com/example/inovisec/
+│   │       ├── MainActivity.kt          # Login y consumo de API
+│   │       ├── MapActivity.kt           # Vista del mapa
+│   │       └── ui/theme/                # Colores y tema general
 │   │
 │   ├── res/
 │   │   ├── layout/
-│   │   │   ├── activity_main.xml  # Pantalla de login
-│   │   │   └── activity_map.xml   # Pantalla del mapa
+│   │   │   ├── activity_main.xml        # Pantalla de login
+│   │   │   └── activity_map.xml         # Pantalla del mapa
 │   │   ├── values/
-│   │   │   ├── colors.xml         # Paleta navy + aguamarina
-│   │   │   ├── themes.xml         # Estilo visual global
-│   │   │   └── arrays.xml         # Lista de tipos de vehículo
+│   │   │   ├── colors.xml               # Paleta navy + aguamarina
+│   │   │   ├── themes.xml               # Estilo visual global
+│   │   │   └── arrays.xml               # Lista de tipos de vehículo
 │   │   └── AndroidManifest.xml
 │
 └── server/
-    └── index.js                   # API Express con ruta /login
-
+    └── index.js                         # API Express con ruta /login
 
 ##  API Backend (Express.js)
 
