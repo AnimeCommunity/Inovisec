@@ -26,6 +26,7 @@ El proyecto fue diseñado como parte de una **prueba técnica de desarrollo móv
 
 ##  Estructura del proyecto
 
+
 Inovisec/
 │
 ├── app/
@@ -47,6 +48,7 @@ Inovisec/
 │
 └── server/
     └── index.js                         # API Express con ruta /login
+
 
 ##  API Backend (Express.js)
 
@@ -75,7 +77,7 @@ app.post("/login", (req, res) => {
 
 app.listen(3000, () => console.log("Servidor corriendo en http://localhost:3000"));
 
-## 📱 Conexión Android ↔ API
+##  Conexión Android ↔ API
 
 - Para emulador Android: http://10.0.2.2:3000/login
 - Para dispositivo físico: http://192.168.1.6:3000/login
@@ -118,4 +120,4 @@ Conecta el dispositivo o emulador y presiona ▶️ Run App.
 **Santiago Pineda**  
 Desarrollador de software especializado en desarrollo web, móvil y entornos interactivos.  
 📍 Bogotá, Colombia  
-💼 LinkedIn: [https://linkedin.com](https://www.linkedin.com/in/daniel-santiago-pineda-garnica-ab214894/)
+💼 LinkedIn: [Ir al perfil](https://www.linkedin.com/in/daniel-santiago-pineda-garnica-ab214894/)
