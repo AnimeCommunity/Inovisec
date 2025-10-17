@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Inovisec</string>
+    <string-array name="tiposVehiculo">
+        <item>Motocicleta</item>
+        <item>Automóvil</item>
+        <item>Camión</item>
+        <item>Furgoneta</item>
+    </string-array>
+
+</resources>

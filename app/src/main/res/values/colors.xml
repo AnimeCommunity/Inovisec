@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tonos base -->
+    <color name="navy">#001F3F</color> <!-- fondo principal -->
+    <color name="navy_dark">#001633</color> <!-- inputs -->
+    <color name="aqua_green">#1ABC9C</color> <!-- botones -->
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Compatibilidad de temas -->
+    <color name="background">@color/navy</color>
+    <color name="primary">@color/navy</color>
+    <color name="secondary">@color/aqua_green</color>
+    <color name="text_primary">@color/white</color>
+</resources>

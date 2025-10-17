@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base usando AppCompat -->
+    <style name="Theme.Inovisec" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Colores personalizados -->
+        <item name="colorPrimary">@color/navy</item>
+        <item name="colorAccent">@color/aqua_green</item>
+
+        <!-- Fondo general -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorBackground">@color/background</item>
+
+        <!-- Texto global -->
+        <item name="android:textColor">@color/text_primary</item>
+
+        <!-- Barra de estado y navegación -->
+        <item name="android:statusBarColor">@color/navy_dark</item>
+        <item name="android:navigationBarColor">@color/navy_dark</item>
+
+        <!-- Fuente predeterminada y botones -->
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+    </style>
+</resources>
