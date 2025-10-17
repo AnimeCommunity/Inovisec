@@ -27,6 +27,7 @@ El proyecto fue diseñado como parte de una **prueba técnica de desarrollo móv
 ##  Estructura del proyecto
 
 
+```
 Inovisec/
 │
 ├── app/
@@ -48,6 +49,8 @@ Inovisec/
 │
 └── server/
     └── index.js                         # API Express con ruta /login
+```
+
 
 
 ##  API Backend (Express.js)
