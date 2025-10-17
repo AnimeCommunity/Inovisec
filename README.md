@@ -42,11 +42,11 @@ Inovisec/
 │   │   │   ├── colors.xml         # Paleta navy + aguamarina
 │   │   │   ├── themes.xml         # Estilo visual global
 │   │   │   └── arrays.xml         # Lista de tipos de vehículo
-│   │
-│   └── AndroidManifest.xml
+│   │   └── AndroidManifest.xml
 │
 └── server/
     └── index.js                   # API Express con ruta /login
+
 
 ##  API Backend (Express.js)
 
